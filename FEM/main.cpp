@@ -384,8 +384,6 @@ int main(int argc, char ** argv)
     Mesh m;
     m.Load(argv[1]);
     main_create_tag(m);
-    norm_c(m);
-    norm_L2(m);
     //main_get_tag(m);
     //main_mesh_diam(m);
     //main_diff_cell_funcs(m);
